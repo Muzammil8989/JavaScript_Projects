@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blog Post Like and Dislike Count</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="blog-post">
+      <h4>Blog Post</h4>
+      <h5>By: Muhammad Muzammil Khan</h5>
+      <h1>What is most important for a developer</h1>
+      <img src="web develper.jpg" alt="web developer" />
+      <p>
+        For a developer, a multitude of skills and qualities are crucial to
+        navigate the ever-evolving landscape of technology and create impactful,
+        efficient, and sustainable solutions. Firstly, a deep understanding of
+        programming languages and frameworks is fundamental. This forms the
+        foundation upon which developers build applications and systems.
+        Adaptability is equally vital, given the rapid pace of technological
+        advancements. Developers must be adept at learning new tools and
+        languages swiftly to stay relevant. Effective problem-solving skills are
+        paramount. Developers encounter complex challenges regularly, and the
+        ability to analyze, conceptualize, and implement effective solutions is
+        indispensable. Collaboration and communication skills are also key, as
+        development is rarely a solitary endeavor. Teamwork and clear
+        communication facilitate the seamless integration of individual
+        contributions into a cohesive product. Furthermore, a commitment to
+        continuous learning is essential. The technology landscape is dynamic,
+        and developers must stay abreast of emerging trends, best practices, and
+        industry standards. Attention to detail is critical to producing
+        high-quality code that is robust, efficient, and secure. Lastly, a
+        passion for innovation and creativity sets outstanding developers apart,
+        as they seek to push the boundaries of what technology can achieve. In
+        summary, a successful developer embodies a combination of technical
+        prowess, adaptability, problem-solving acumen, collaboration skills, a
+        commitment to learning, attention to detail, and a passion for
+        innovation.
+      </p>
+      <button class="like-button" onclick="likeClick()">
+        Like <i class="fa-solid fa-thumbs-up"></i>
+        <span id="likes-count"></span>
+      </button>
+      <button class="unlike-button" onclick="unlikeClick()">
+        Unlike <i class="fa-solid fa-thumbs-down"></i>
+      </button>
+
+      <button class="undislike-button" onclick="undislikeClick()">
+        Undislike <i class="fa-solid fa-thumbs-down"></i>
+      </button>
+      <button class="dislike-button" onclick="dislikeClick()">
+        Dislike <i class="fa-solid fa-thumbs-down"></i>
+        <span id="dislikes-count"></span>
+      </button>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
