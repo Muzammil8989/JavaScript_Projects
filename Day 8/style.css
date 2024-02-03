@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Muli&display=swap");
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Muli','sans-serif';
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(22,38,99,1) 15%, rgba(0,212,255,1) 77%);
+    color: white; 
+}
+.container{
+    width: 350px;
+    background-color:transparent;
+    
+    padding: 20px;
+    border-radius: 10px; 
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1), 0 6px 6px rgba(0,0,0,0.1);
+
+}
+.container h1{
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+.container a{
+    text-decoration: none;
+    color:lightblue;
+
+}
+.btn{
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: lightblue;
+    font-family: 'Muli',sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    margin: 10px 0;
+
+}
+.btn:focus{
+    outline: none;
+}
+.btn:active{
+    transform: scale(0.98);
+}
+.btn:hover{
+    background-color: rgba(103, 194, 224,0.5);
+}
+.text{
+    text-align: center;
+    margin-top: 20px; 
+    
+}
+.form-control{
+    margin-bottom: 10px;
+    position: relative;
+    width: 300px;
+    margin: 20px auto;
+
+}
+.container input{
+    background-color: transparent;
+    border: 0;
+    border-bottom: 2px solid #fff;
+    display: block;
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #fff;
+    outline: none;
+    font-family: 'Muli',sans-serif;
+  
+}
+.form-control input:focus, 
+.form-control input:valid{
+    outline: none;
+    border-bottom: 2px solid lightblue;
+}
+.form-control label{
+    position: absolute;
+    top: 15px;
+    left: 0;
+    pointer-events: none;
+    transition: 0.3s ease all;
+
+
+}
+.form-control label span{
+    display: inline-block;
+    font-size: 16px;
+    min-width: 5px;
+    transition: 0.3s cubic-bezier(0.68,-0.55,0.265,1.55);
+
+}
+.form-control input:focus + label span,
+.form-control input:valid + label span{
+    color: lightblue;
+    transform: translateY(-30px);
+
+}
+
+
+
+
+
+

@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("wallpaperflare.com_wallpaper.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+.counter-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 50px;
+    color: #fff;
+    
+}
+.counter{
+    font-size: 60px;
+    margin-top: 10px;
+}
+.fa-twitter{
+    color: #00acee;
+}
+.fa-youtube{
+    color: #FF0000;
+}
+.fa-facebook{
+    color: #3b5998;
+}
+.fa-instagram{
+    color: #E1306C;
+}
+@media(max-width: 580px){
+    body{
+        flex-direction: column; 
+    }
+    .counter{
+        font-size: 50px;
+    }
+    .counter-container{
+        margin: 10px 20px;
+    }
+}
+@media(max-width: 380px){
+    .counter{
+        font-size: 35px;
+    }
+    .counter-container{
+        margin: 10px 10px;
+    }
+    
+}
