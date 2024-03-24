@@ -10,10 +10,11 @@ The primary purpose of this repository is to offer a curated selection of 50 min
 JavaScript is one of the most popular programming languages used in web development today. With its versatility and ubiquity, mastering JavaScript opens doors to a wide range of opportunities in front-end, back-end, and full-stack development. By working on these mini projects, you'll deepen your understanding of JavaScript fundamentals and enhance your ability to create dynamic and interactive web applications.
 
 ## List of Projects
-1. Project 2: Digital Clock
-   - Description: Display a digital clock that updates in real-time.
-2. Project 3: Random Quote Generator
-   - Description: Generate random quotes and display them on the screen.
+1. Day 1: Expanding Cards
+   - Description: Create expanding cards feature using JavaScript.
+2. Day 2: Progress Steps
+   - This project may involve creating a progress steps or progress bar component to track the progress of a multi-step process.
+
 
 ## How to Use
 To get started with these mini projects, simply clone this repository to your local machine and explore the project directories. Each project contains its own set of files, including HTML, CSS, and JavaScript, allowing you to dive into the code and experiment with different techniques and approaches.
