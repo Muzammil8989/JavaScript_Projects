@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css?family=Urbanist:400,700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Urbanist', sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    overflow: hidden;
+    padding: 10px;
+    color: aliceblue;
+}
+h2{
+    margin: 10 0 20px;
+    text-align: center;
+}
+.container{
+    width: 500px;
+    background: rgba(255, 255, 255, 0.2);
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.result-container{
+  background: rgba(255, 255, 255, 0.2);
+   display: flex;
+   justify-content: flex-start;
+   align-items: center;
+   position: relative;
+   font-size: 18px;
+   letter-spacing: 1px;
+   padding: 12px 10px;
+   height: 50px;
+   width: 100%;
+}
+
+.result-container #result{
+    word-wrap: break-word;
+    max-width: calc(100% - 40px);
+}
+
+.result-container .btn{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+}
+.btn{
+    border: none;
+    background-color: rgba(255, 255, 255, 0.2);
+    font-size: 16px;
+    padding: 8px 12px;
+    cursor: pointer;
+    display: inline-block;
+
+}
+
+
+.btn-large{
+    display: block;
+    width: 100%;
+}
+
+.setting{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px 0;
+}
+
+input[type=number]{
+    width: 70px;
+    outline: none;
+    border: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    color: rgb(81, 28, 165);
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+}

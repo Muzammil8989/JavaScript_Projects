@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap');
+*{
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #1b84ec;
+    font-family: 'Permanent Marker', cursive;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+}
+h3{
+    margin: 10px 0 20px;
+    text-align: center;
+}
+small{
+    display: block;
+    margin-bottom: 20px;
+    text-align: center;
+}
+#times{
+    font-size: 1rem;
+    margin-bottom: 15px;
+    color: #fff;
+    text-shadow: 0 0 5px #000;
+     
+}
+
+.fa-heart{
+    color: red;
+    font-size: 30px;
+    margin: 5px;
+}
+
+.loveMe{
+    height: 440px;
+    width: 300px;
+    background: url('https://images.unsplash.com/photo-1529778873920-4da4926a72c2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80') no-repeat center center/cover;
+    margin: auto;
+    cursor: pointer;
+    max-width: 100%;
+    position: relative;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.loveMe .fa-heart{
+    position: absolute;
+    animation: grow 0.6s linear;
+    transform: translate(-50%, -50%) scale(0);
+}
+@keyframes grow{
+    to{
+        transform: translate(-50%, -50%) scale(10);
+        opacity: 0;
+    }
+}
+    
